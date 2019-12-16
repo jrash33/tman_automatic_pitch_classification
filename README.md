@@ -6,7 +6,7 @@ Build a model that automatically predicts the type of baseball pitch being throw
 
 ## Steps:
 ### 1. Handle missing values
-- This includes finding each row where there are missing values (there were roughly 300 which is a decent ammount)
+- This includes finding each row where there are missing values (there were roughly 300 which is a decent amount)
 - If rows had more than 5, delete these rows due to low confidence in measurement accuracy
 - If rows just had a couple (mostly spin rate values), interpolate this value using the median grouped by pitcherID/pitchTypeCode
 
