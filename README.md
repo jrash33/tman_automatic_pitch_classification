@@ -28,16 +28,16 @@ Build a model that automatically predicts the type of baseball pitch being throw
 
 ### 4. Model
 - Start with random forest which is a great multiclassification model
---> Run the model on the raw cleaned up data to get a baseline to improve upon (94% accuracy)
---> Run the model on the optimized polynomial data (94.5% accuracy)
---> Tune the hyperparameters and run the model (94.8% accuracy)
+- Run the model on the raw cleaned up data to get a baseline to improve upon (94% accuracy)
+- Run the model on the optimized polynomial data (94.5% accuracy)
+- Tune the hyperparameters and run the model (94.8% accuracy)
 
 - Run other models that are good models for multi-classification (run each model on raw and polynomial data)
---> Decision Trees
---> K Nearest Neighbors (revealed 95.7% accuracy score)
+1. Decision Trees
+2. K Nearest Neighbors (revealed 95.7% accuracy score)
 - Tune parameters to increase accuracy (no improvement)
---> Naive Bayes
---> Support Vector Machines
+3. Naive Bayes
+4. Support Vector Machines
 
 
 ### 5. Evaluate best models (KNN and Random Forest)
