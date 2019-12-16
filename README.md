@@ -65,8 +65,9 @@ Looking at the confusion matrix/classification report, we can see that the error
 1. I used a class weighting hyperparameter to account for the class imbalance. Another method would be to try over/under sampling and see how the model responds. I could even oversample the cutters/curveballs more to give the model more efficiency with these pitches
 2. Dig deeper into cutters/curveballs and reasons as to why the model would mix them up with sliders
 3. Optimize my feature reduction - I set a hard limit of 30 features. If I had more time, I could optimize the number of features to decrease possible overfitting. This optimal number could be much more or much less.
-4. I was brainstorming ways to account for the pitcherID imbalance if this became an issue (ended up being ok but could potentially account for some error). One thought is to bin players by speed and build a couple different models depending on player type/parameters. I could also try over/under sampling by pitcherID and see how the model reacts
-Overall, I am pleased with the results but also feel this model can be improved upon in terms of the FC/CU/SL classifications
+4. I was brainstorming ways to account for the pitcherID imbalance if this became an issue (ended up being ok but could potentially account for some error). One thought is to bin players by speed and build a couple different models depending on player type/parameters. I could also try over/under sampling by pitcherID and see how the model reacts.
+
+Overall, I am pleased with the results but feel this model can be improved upon in terms of the FC/CU/SL classifications
 
 
 
