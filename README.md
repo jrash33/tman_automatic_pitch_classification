@@ -23,7 +23,7 @@ Build a model that automatically predicts the type of baseball pitch being throw
 - Add polynomial and interaction terms of degree 2 (this creates over 209 columns)
 - Scale the data using a min_max scaler
 - Delete columns with low variance
-- Use backward selection method (Recursive Feature Elimination) to delete features that are unimportant (this is an iterative model      execution using feauture selection on Random Forest Classifier)
+- Use backward selection method (Recursive Feature Elimination) to delete features that are unimportant (this is an iterative model      execution using the feature importance hyperparameter from Random Forest Classifier)
 
 
 ### 4. Model
